@@ -10,5 +10,6 @@ public class BookTester
         System.out.println(b1.getAuthor());
         b1.setPages(12);
         System.out.println(b1.getPages());
+        System.out.println(b1.toString());
     }
 }
