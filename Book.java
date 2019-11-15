@@ -36,4 +36,8 @@ public class Book
         pages = p;
         return pages;
     }
+    public String toString()
+    {
+        return "Title: " + title + "Author: " + author + "Pages: " + pages;
+    }
 }
